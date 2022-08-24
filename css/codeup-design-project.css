@@ -1,6 +1,7 @@
 body {
     background-color: #F0F0F0;
     padding: 0;
+    font-family: 'Abel', sans-serif;
 }
 
 .container {
@@ -99,6 +100,79 @@ hr {
 }
 
 .apple-laptop {
-    max-width: 100%;
     height: auto;
+    width: 300px;
+    border: 10px solid #E6E6E6;
+    margin: 10px;
+}
+
+.w-laptop {
+    height: auto;
+    width: 300px;
+    border: 10px solid #E6E6E6;
+    margin: 10px;
+}
+
+.man {
+    height: auto;
+    width: 300px;
+    border: 10px solid #E6E6E6;
+    margin: 10px;
+}
+
+.security {
+    height: auto;
+    width: 300px;
+    border: 10px solid #E6E6E6;
+    margin: 10px;
+}
+
+.laptop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background: #E6563B;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange {
+    background: #EB9D3A;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background: #7CB06C;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aqua {
+    background: #00ABA9;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
