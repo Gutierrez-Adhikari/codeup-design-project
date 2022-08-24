@@ -1,3 +1,104 @@
 body {
     background-color: #F0F0F0;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.container-fluid {
+    background-color: #F0F0F0;
+    padding: 0;
+}
+
+.navbar, .navbar-expand-lg, .bg-light {
+    padding: 0;
+}
+
+.nav-icon {
+    height: 105px;
+    width: 105px;
+}
+
+.page-heading {
+    padding: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.location {
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 25px;
+}
+
+.circle-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.red-circle {
+    background: #E6563B;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-circle {
+    background: #EB9D3A;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-circle {
+    background: #7CB06C;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aqua-circle {
+    background: #00ABA9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    margin: 50px 30px;
+}
+
+.apple-laptop {
+    max-width: 100%;
+    height: auto;
 }
